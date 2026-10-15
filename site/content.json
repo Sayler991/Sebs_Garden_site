@@ -1,0 +1,148 @@
+{
+ "version": 1,
+ "business": {
+  "name": "Seb’s Garden",
+  "phone": "05 62 70 62 19",
+  "phone_intl": "+213562706219",
+  "address": "Kiffane, Tlemcen 13000, Algérie",
+  "maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant+Seb%27s+garden+tlemcen",
+  "open": true,
+  "closed_text": "Le restaurant est momentanément fermé. Appelez-nous pour en savoir plus."
+ },
+ "hero": {
+  "kicker": "Restaurant & jardin — Kiffane, Tlemcen",
+  "title": "Seb’s *Garden*",
+  "tagline": "Une table au vert à Kiffane : cuisine ouverte, salle décorée, coin salon et espace pour les enfants."
+ },
+ "about": {
+  "title": "Un jardin, une cuisine ouverte, *une table pour tous*",
+  "text": "Seb’s Garden est un restaurant de Kiffane, à Tlemcen. Le comptoir donne sur une cuisine ouverte ; on y vient en couple, en famille ou entre amis.",
+  "text2": "Tables confortables, coin salon avec canapés, musique douce et espace pensé pour les enfants : de midi jusqu’à minuit, tous les jours.",
+  "quote": "Le comptoir spacieux donne sur une cuisine ouverte où les chefs préparent des plats variés et savoureux, élaborés avec des ingrédients frais et de qualité."
+ },
+ "specialities": [
+  "Restaurant",
+  "Cuisine ouverte",
+  "Grillades",
+  "Pâtes",
+  "Cocktails",
+  "Café",
+  "Espace enfants",
+  "Kiffane · Tlemcen"
+ ],
+ "menu": {
+  "note": "Carte à venir : les plats et les tarifs ne sont pas encore publiés en ligne. Demandez à l’équipe ou appelez-nous.",
+  "currency": "DA",
+  "categories": [
+   {
+    "id": "plats",
+    "title": "Les plats",
+    "desc": "Cuisine variée préparée en cuisine ouverte. Cités par nos clients : brochettes bœuf-fromage, steak, pâtes (crevettes, champignons, pesto pistache), sushis.",
+    "items": []
+   },
+   {
+    "id": "entrees",
+    "title": "Entrées & à partager",
+    "desc": "Des entrées à partager en début de repas — dont le pain farci, cité par nos clients. Détail de la carte à venir.",
+    "items": []
+   },
+   {
+    "id": "boissons",
+    "title": "Boissons & douceurs",
+    "desc": "Cocktails, café et pâtisseries, cités par nos clients. Détail de la carte à venir.",
+    "items": []
+   }
+  ]
+ },
+ "hours": [
+  {
+   "day": "Samedi",
+   "open": "12:00",
+   "close": "00:00"
+  },
+  {
+   "day": "Dimanche",
+   "open": "12:00",
+   "close": "00:00"
+  },
+  {
+   "day": "Lundi",
+   "open": "12:00",
+   "close": "00:00"
+  },
+  {
+   "day": "Mardi",
+   "open": "12:00",
+   "close": "00:00"
+  },
+  {
+   "day": "Mercredi",
+   "open": "12:00",
+   "close": "00:00"
+  },
+  {
+   "day": "Jeudi",
+   "open": "12:00",
+   "close": "00:30"
+  },
+  {
+   "day": "Vendredi",
+   "open": "16:30",
+   "close": "00:30"
+  }
+ ],
+ "booking": {
+  "open": true,
+  "note": "Choisissez le jour, l’heure et le nombre de personnes : nous vous rappelons pour confirmer la table."
+ },
+ "reviews": [
+  {
+   "author": "Avis Google · 5/5 · juillet 2025 (en anglais)",
+   "text": "The best steak I have ever had. Amazing atmosphere. Love from USA 🇺🇸"
+  },
+  {
+   "author": "Avis Google · 5/5 · juillet 2025 (en anglais)",
+   "text": "We came all the way from London and the food was amazing the waiter he spoke English and French which makes it so much easier for us ✨ I recommend you to try this place"
+  },
+  {
+   "author": "Avis Google · 4/5 · décembre 2025 (en anglais)",
+   "text": "Great restaurant, the food was delicious, and the service was very good."
+  }
+ ],
+ "rating": {
+  "value": "4,6",
+  "count": "629"
+ },
+ "photos": {
+  "hero": {
+   "label": "Jardin éclairé (illustration)",
+   "alt": "Allée de jardin éclairée le soir, plantes et lanternes (photo d’illustration)",
+   "src": ""
+  },
+  "terrasse": {
+   "label": "Terrasse (illustration)",
+   "alt": "Terrasse végétalisée avec guirlandes lumineuses (photo d’illustration)",
+   "src": ""
+  },
+  "grill": {
+   "label": "Grillades (illustration)",
+   "alt": "Viandes grillées sur le feu (photo d’illustration)",
+   "src": ""
+  },
+  "the": {
+   "label": "Boissons (illustration)",
+   "alt": "Tasses de thé et menthe fraîche (photo d’illustration)",
+   "src": ""
+  },
+  "lanternes": {
+   "label": "Tables du soir (illustration)",
+   "alt": "Tables en terrasse éclairées par des lanternes (photo d’illustration)",
+   "src": ""
+  },
+  "tajine": {
+   "label": "Table dressée (illustration)",
+   "alt": "Plats en terre cuite sur une table (photo d’illustration)",
+   "src": ""
+  }
+ }
+}

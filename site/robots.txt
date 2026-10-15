@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+
+Sitemap: https://sayler991.github.io/Sebs_Garden_site/sitemap.xml
