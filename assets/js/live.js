@@ -10,7 +10,7 @@
   function rich(t) { return esc(t).replace(/\*([^*]+)\*/g, '<em>$1</em>'); }
   function get(o, p) { return p.split('.').reduce(function (a, k) { return a == null ? a : a[k]; }, o); }
   var DAYS = ['Dimanche', 'Lundi', 'Mardi', 'Mercredi', 'Jeudi', 'Vendredi', 'Samedi'];
-  var HOURS = { 0: ['12:00', '00:00'], 1: ['12:00', '00:00'], 2: ['12:00', '00:00'], 3: ['12:00', '00:00'], 4: ['12:00', '00:30'], 5: ['16:30', '00:30'], 6: ['12:00', '00:00'] };
+  var HOURS = { 0: ['11:00', '23:00'], 1: ['11:00', '23:00'], 2: ['11:00', '23:00'], 3: ['11:00', '23:00'], 4: ['11:00', '23:00'], 5: ['14:00', '23:30'], 6: ['11:00', '23:00'] };
   function hhmm(s) { return String(s || '').replace(':', 'h'); }
   function mins(s) { var p = String(s).split(':'); var m = (+p[0]) * 60 + (+p[1] || 0); return m < 360 ? m + 1440 : m; }
   function algiersNow() {
@@ -83,9 +83,10 @@
     if (h) { open = n.min >= mins(h[0]) && n.min < mins(h[1]); }
     var prev = HOURS[(n.dow + 6) % 7];
     if (!open && prev && mins(prev[1]) > 1440 && n.min < mins(prev[1]) - 1440) open = true;
-    if (DATA && DATA.business && DATA.business.open === false) open = false;
+    if (DATA && DATA.business && DATA.business.open === false) { open = false; h = null; }
     var cl = h ? (h[1] === '00:00' ? 'minuit' : h[1] === '00:30' ? 'minuit et demie' : hhmm(h[1])) : '';
     txt = open ? 'Ouvert en ce moment' + (cl ? ' · jusqu’à ' + cl : '') : (h && n.min < mins(h[0]) ? 'Fermé · ouvre aujourd’hui à ' + hhmm(h[0]) : 'Fermé en ce moment');
+    if (DATA && DATA.business && DATA.business.open === false) txt = 'Fermé temporairement';
     el.textContent = txt; el.classList.toggle('closed', !open);
   }
 
