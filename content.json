@@ -1,99 +1,173 @@
 {
- "version": 1,
+ "version": 2,
  "business": {
   "name": "Seb’s Garden",
   "phone": "05 62 70 62 19",
   "phone_intl": "+213562706219",
   "address": "Kiffane, Tlemcen 13000, Algérie",
   "maps_url": "https://www.google.com/maps/search/?api=1&query=Restaurant+Seb%27s+garden+tlemcen",
-  "open": true,
-  "closed_text": "Le restaurant est momentanément fermé. Appelez-nous pour en savoir plus."
+  "open": false,
+  "closed_text": "Fermé temporairement depuis le 3 octobre pour un renouveau — « Une page se tourne… ». Suivez la réouverture sur Instagram @restaurant_sebs_garden ou appelez le 05 62 70 62 19.",
+  "instagram": "https://www.instagram.com/restaurant_sebs_garden/",
+  "plus_code": "VMQF+7F",
+  "price_range": "1 000 – 6 000 DA"
  },
  "hero": {
-  "kicker": "Restaurant & jardin — Kiffane, Tlemcen",
+  "kicker": "Restaurant gastronomique · Kiffane, Tlemcen",
   "title": "Seb’s *Garden*",
-  "tagline": "Une table au vert à Kiffane : cuisine ouverte, salle décorée, coin salon et espace pour les enfants."
+  "tagline": "Cuisine internationale, cuisine ouverte et salon feutré. Ici, le dîner se joue comme un air de jazz, en douceur."
  },
  "about": {
-  "title": "Un jardin, une cuisine ouverte, *une table pour tous*",
-  "text": "Seb’s Garden est un restaurant de Kiffane, à Tlemcen. Le comptoir donne sur une cuisine ouverte ; on y vient en couple, en famille ou entre amis.",
-  "text2": "Tables confortables, coin salon avec canapés, musique douce et espace pensé pour les enfants : de midi jusqu’à minuit, tous les jours.",
+  "title": "Une table élégante, *une cuisine ouverte*",
+  "text": "Seb’s Garden est un restaurant gastronomique de Kiffane, à Tlemcen, tourné vers la cuisine internationale : pizzas, pâtes, grillades, salades, desserts et cocktails.",
+  "text2": "Comptoir sur cuisine ouverte, salon avec canapés et musique douce, terrasse, plats végans et un espace pensé pour les enfants — en couple, en famille ou entre amis.",
   "quote": "Le comptoir spacieux donne sur une cuisine ouverte où les chefs préparent des plats variés et savoureux, élaborés avec des ingrédients frais et de qualité."
  },
  "specialities": [
-  "Restaurant",
+  "Cuisine internationale",
   "Cuisine ouverte",
-  "Grillades",
+  "Pizzas",
   "Pâtes",
+  "Grillades",
+  "Plats végans",
   "Cocktails",
-  "Café",
-  "Espace enfants",
+  "Desserts",
+  "Terrasse",
   "Kiffane · Tlemcen"
  ],
  "menu": {
-  "note": "Carte à venir : les plats et les tarifs ne sont pas encore publiés en ligne. Demandez à l’équipe ou appelez-nous.",
+  "note": "Carte à venir : les tarifs ne sont pas encore publiés en ligne (gamme de prix indiquée par Google : 1 000 – 6 000 DA). Appelez-nous pour la carte du jour.",
   "currency": "DA",
+  "source": "Plats vus sur les photos du restaurant (RestosDZ) et des clients (Google Maps) ; aucune carte avec prix publiée (sebsgarden.com/menu : « Menu d’été prochainement »).",
   "categories": [
    {
     "id": "plats",
     "title": "Les plats",
-    "desc": "Cuisine variée préparée en cuisine ouverte. Cités par nos clients : brochettes bœuf-fromage, steak, pâtes (crevettes, champignons, pesto pistache), sushis.",
-    "items": []
+    "desc": "Cuisine internationale préparée en cuisine ouverte. Plats vus sur les photos du restaurant ; aussi cités dans les avis : steak, pâtes aux crevettes ou au pesto de pistache, sushis.",
+    "items": [
+     {
+      "name": "Pizza roquette & tomates cerises",
+      "desc": "",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Pizza olives & tomates cerises",
+      "desc": "",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Pâtes au basilic",
+      "desc": "",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Brochettes mixtes grillées",
+      "desc": "avec riz",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Viande grillée & légumes",
+      "desc": "",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Escalope panée",
+      "desc": "haricots verts, pommes de terre",
+      "price": "prix à venir"
+     }
+    ]
    },
    {
     "id": "entrees",
-    "title": "Entrées & à partager",
-    "desc": "Des entrées à partager en début de repas — dont le pain farci, cité par nos clients. Détail de la carte à venir.",
-    "items": []
+    "title": "Entrées & salades",
+    "desc": "Salades, soupe et entrées ; plats végans disponibles.",
+    "items": [
+     {
+      "name": "Salade de crevettes",
+      "desc": "",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Salade tomate-concombre",
+      "desc": "",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Soupe & tartelette",
+      "desc": "",
+      "price": "prix à venir"
+     }
+    ]
    },
    {
     "id": "boissons",
-    "title": "Boissons & douceurs",
-    "desc": "Cocktails, café et pâtisseries, cités par nos clients. Détail de la carte à venir.",
-    "items": []
+    "title": "Desserts & cocktails",
+    "desc": "Desserts, pâtisseries de la vitrine et cocktails.",
+    "items": [
+     {
+      "name": "Cheesecake",
+      "desc": "",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Dessert au chocolat",
+      "desc": "",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Pâtisseries",
+      "desc": "",
+      "price": "prix à venir"
+     },
+     {
+      "name": "Cocktail pastèque",
+      "desc": "",
+      "price": "prix à venir"
+     }
+    ]
    }
   ]
  },
  "hours": [
   {
    "day": "Samedi",
-   "open": "12:00",
-   "close": "00:00"
+   "open": "11:00",
+   "close": "23:00"
   },
   {
    "day": "Dimanche",
-   "open": "12:00",
-   "close": "00:00"
+   "open": "11:00",
+   "close": "23:00"
   },
   {
    "day": "Lundi",
-   "open": "12:00",
-   "close": "00:00"
+   "open": "11:00",
+   "close": "23:00"
   },
   {
    "day": "Mardi",
-   "open": "12:00",
-   "close": "00:00"
+   "open": "11:00",
+   "close": "23:00"
   },
   {
    "day": "Mercredi",
-   "open": "12:00",
-   "close": "00:00"
+   "open": "11:00",
+   "close": "23:00"
   },
   {
    "day": "Jeudi",
-   "open": "12:00",
-   "close": "00:30"
+   "open": "11:00",
+   "close": "23:00"
   },
   {
    "day": "Vendredi",
-   "open": "16:30",
-   "close": "00:30"
+   "open": "14:00",
+   "close": "23:30"
   }
  ],
  "booking": {
-  "open": true,
-  "note": "Choisissez le jour, l’heure et le nombre de personnes : nous vous rappelons pour confirmer la table."
+  "open": false,
+  "note": "Le restaurant est fermé temporairement pour renouveau : les réservations en ligne rouvriront avec lui. Laissez-nous un message ou appelez le 05 62 70 62 19."
  },
  "reviews": [
   {
@@ -110,38 +184,63 @@
   }
  ],
  "rating": {
-  "value": "4,6",
-  "count": "629"
+  "value": "4,5",
+  "count": "787"
  },
  "photos": {
   "hero": {
-   "label": "Jardin éclairé (illustration)",
-   "alt": "Allée de jardin éclairée le soir, plantes et lanternes (photo d’illustration)",
+   "label": "Accueil — pizza à la bougie",
+   "alt": "Pizza servie à la bougie sur une table sombre",
    "src": ""
   },
-  "terrasse": {
-   "label": "Terrasse (illustration)",
-   "alt": "Terrasse végétalisée avec guirlandes lumineuses (photo d’illustration)",
+  "salle": {
+   "label": "La salle",
+   "alt": "La salle de Seb’s Garden : tables dressées, plafond lumineux et banquettes",
    "src": ""
   },
-  "grill": {
-   "label": "Grillades (illustration)",
-   "alt": "Viandes grillées sur le feu (photo d’illustration)",
+  "pizza": {
+   "label": "Pizza roquette",
+   "alt": "Pizza à la roquette et aux tomates cerises de Seb’s Garden",
    "src": ""
   },
-  "the": {
-   "label": "Boissons (illustration)",
-   "alt": "Tasses de thé et menthe fraîche (photo d’illustration)",
+  "brochettes": {
+   "label": "Brochettes mixtes",
+   "alt": "Assiette de brochettes grillées et riz",
    "src": ""
   },
-  "lanternes": {
-   "label": "Tables du soir (illustration)",
-   "alt": "Tables en terrasse éclairées par des lanternes (photo d’illustration)",
+  "pates": {
+   "label": "Pâtes au basilic",
+   "alt": "Pâtes au basilic",
    "src": ""
   },
-  "tajine": {
-   "label": "Table dressée (illustration)",
-   "alt": "Plats en terre cuite sur une table (photo d’illustration)",
+  "grillade": {
+   "label": "Grillade & légumes",
+   "alt": "Viande grillée et légumes servis à Seb’s Garden",
+   "src": ""
+  },
+  "dessert": {
+   "label": "Dessert au chocolat",
+   "alt": "Dessert au chocolat servi à la bougie sur une table sombre",
+   "src": ""
+  },
+  "cheesecake": {
+   "label": "Cheesecake",
+   "alt": "Part de cheesecake",
+   "src": ""
+  },
+  "cocktail": {
+   "label": "Cocktail pastèque",
+   "alt": "Cocktail à la pastèque de Seb’s Garden",
+   "src": ""
+  },
+  "crevettes": {
+   "label": "Salade de crevettes",
+   "alt": "Salade de crevettes servie à Seb’s Garden",
+   "src": ""
+  },
+  "brochettes2": {
+   "label": "Brochettes (assiette bleue)",
+   "alt": "Brochettes grillées sur une assiette bleue",
    "src": ""
   }
  }

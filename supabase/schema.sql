@@ -90,12 +90,12 @@ begin
     if new.day < v_today or new.day > v_today + 60 then
       raise exception 'Date de réservation invalide (aujourd''hui à 60 jours).' using errcode = 'P0001';
     end if;
-    -- horaires : vendredi à partir de 16h30, autres jours à partir de 12h00 ; dernière réservation 23h00
+    -- horaires (RestosDZ) : sam–jeu 11h00–23h00 (dernière résa 22h00), ven 14h00–23h30 (dernière résa 22h30)
     v_dow := extract(isodow from new.day);
-    v_min := case when v_dow = 5 then 16*60+30 else 12*60 end;
+    v_min := case when v_dow = 5 then 14*60 else 11*60 end;
     v_t := split_part(new.at_time, ':', 1)::int * 60 + split_part(new.at_time, ':', 2)::int;
-    if v_t < v_min or v_t > 23*60 then
-      raise exception 'Heure en dehors des horaires (vendredi 16h30–23h, autres jours 12h–23h).' using errcode = 'P0001';
+    if v_t < v_min or v_t > (case when v_dow = 5 then 22*60+30 else 22*60 end) then
+      raise exception 'Heure en dehors des horaires (vendredi 14h–22h30, autres jours 11h–22h).' using errcode = 'P0001';
     end if;
     if new.day = v_today and v_t < extract(hour from (now() at time zone 'Africa/Algiers'))::int * 60 + extract(minute from (now() at time zone 'Africa/Algiers'))::int then
       raise exception 'Cette heure est déjà passée.' using errcode = 'P0001';

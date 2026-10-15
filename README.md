@@ -6,7 +6,14 @@ Site une page (FR) + tableau de bord patron pour **Seb’s Garden**, restaurant 
 - Site : https://sayler991.github.io/Sebs_Garden_site/
 - Espace patron : https://sayler991.github.io/Sebs_Garden_site/admin/ (compte propriétaire benduy0@gmail.com via `public.owners`)
 
-## Faits réels utilisés (relevés le 15/10/2026)
+
+## v2 (16/10/2026) — refonte « restaurant gastronomique » bleu nuit & or
+État précédent : tag `v1` (main) et `v1-gh-pages` (site publié). Palette : bleu nuit #14233C / #35516D, nuit #03040C, or #C9A86A, crème ; ciel étoilé discret dans le hero, note ♪ (clin d’œil jazz).
+Faits mis à jour : Google Maps 4,5/5 (787 avis), plus code VMQF+7F, gamme 1 000–6 000 DA, terrasse, cocktails, plats végans ; **fermé temporairement** depuis le 3 octobre (Instagram « Une page se tourne… ») → `business.open=false`, `booking.open=false` (à rebasculer dans l’admin à la réouverture). Horaires : RestosDZ (sam–jeu 11:00–23:00, ven 14:00–23:30) ; trigger SQL aligné (dernière résa 22:00 / ven 22:30). Instagram https://www.instagram.com/restaurant_sebs_garden/ ; Facebook « Restaurant Seb’s Garden » (lien de recherche, URL exacte non vérifiée).
+Carte : aucune carte avec prix trouvée (QR « Menu Digital – Plat 3D » → https://www.sebsgarden.com/menu = « Site en cours de travaux, Menu d’été prochainement » ; RestosDZ, Mindtrip, winrouh : pas de carte). Plats listés = vus sur les photos (« prix à venir »).
+Photos (plus aucune Pexels) : rdz_* = photos du restaurant via RestosDZ (hero=pizza à la bougie, pizza, brochettes, pates, grillade, dessert, cheesecake, cocktail) ; gm_* = photos clients Google Maps (salle, crevettes, brochettes2). WebP + AVIF 480/800/1600 (plafonnées à la taille source).
+
+## Faits réels utilisés (v1) (relevés le 15/10/2026)
 | Fait | Valeur | Source |
 |---|---|---|
 | Adresse | Kiffane, Tlemcen 13000 | Mindtrip, RestosDZ |

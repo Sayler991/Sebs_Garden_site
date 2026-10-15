@@ -1,13 +1,13 @@
 {
  "name": "Seb’s Garden — Restaurant à Kiffane, Tlemcen",
  "short_name": "Seb’s Garden",
- "description": "Restaurant et jardin à Kiffane, Tlemcen",
+ "description": "Restaurant gastronomique, cuisine internationale — Kiffane, Tlemcen",
  "lang": "fr",
  "start_url": "./",
  "scope": "./",
  "display": "standalone",
- "background_color": "#0d1410",
- "theme_color": "#0d1410",
+ "background_color": "#14233C",
+ "theme_color": "#14233C",
  "icons": [
   {
    "src": "icon-192.png",
