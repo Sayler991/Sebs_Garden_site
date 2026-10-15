@@ -47,3 +47,4 @@ a{color:var(--g1)}
 /* v2 bleu nuit & or */
 body{background:radial-gradient(90rem 50rem at 80% -20%,rgba(53,81,109,.35),transparent 60%),#060a16}
 .login-card h1{font-family:Fraunces,Georgia,serif}
+html{background:#060a16}body{min-height:100vh;background-attachment:fixed}
